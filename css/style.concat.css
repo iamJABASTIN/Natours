@@ -613,6 +613,12 @@ body {
   transform: skewX(15deg) skewY(2deg) scale(1.1);
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.3);
 }
+@media only screen and (max-width: 56.25em) {
+  .heading-secondary:hover {
+    transform: none;
+    text-shadow: none;
+  }
+}
 
 .heading-teritary {
   font-size: 1.6rem;
@@ -1571,7 +1577,7 @@ body {
 .section-about {
   background-color: #f7f7f7;
   padding: 25rem 0;
-  margin-top: -20vh;
+  margin-top: -40vh;
 }
 @media only screen and (max-width: 56.25em) {
   .section-about {
